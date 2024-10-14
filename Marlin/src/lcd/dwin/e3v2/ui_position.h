@@ -12,27 +12,25 @@
 //编辑调平页面
     #define WORD_TITLE_X 29 
     #define WORD_TITLE_Y 1
-    #define OUTLINE_LEFT_X 12//40
-    #define OUTLINE_LEFT_Y 30//72
-    #define OUTLINE_RIGHT_X OUTLINE_LEFT_X+220//OUTLINE_LEFT_X+200//OUTLINE_LEFT_X+160
-    #define OUTLINE_RIGHT_Y OUTLINE_LEFT_Y+220//OUTLINE_LEFT_Y+160
+    #define OUTLINE_LEFT_X 2
+    #define OUTLINE_LEFT_Y 30
+    #define OUTLINE_RIGHT_X OUTLINE_LEFT_X+238
+    #define OUTLINE_RIGHT_Y OUTLINE_LEFT_Y+220
     //button——position
     #define BUTTON_W 82
     #define BUTTON_H 32
     #define BUTTON_EDIT_X OUTLINE_LEFT_X
-    #define BUTTON_EDIT_Y OUTLINE_RIGHT_Y+20//OUTLINE_RIGHT_Y+27
+    #define BUTTON_EDIT_Y OUTLINE_RIGHT_Y+20
     #define BUTTON_OK_X  OUTLINE_RIGHT_X-BUTTON_W
-    #define BUTTON_OK_Y  BUTTON_EDIT_Y//
+    #define BUTTON_OK_Y  BUTTON_EDIT_Y
     //数据坐标
-    #define X_Axis_Interval  50//54   //x轴上间隔距离像素
-    #define Y_Axis_Interval  52//35   //y轴上间隔距离像素
-    #define Rect_LU_X_POS    OUTLINE_LEFT_X+10//32   //第一个左上x坐标
-    // #define Rect_LU_Y_POS    OUTLINE_LEFT_Y+10//157-4  //第一个左上y坐标
-    #define Rect_LU_Y_POS    (OUTLINE_LEFT_Y+20)+3*Y_Axis_Interval//157-4  //第一个左上y坐标
+    #define X_Axis_Interval  33                                     //x轴上间隔距离像素
+    #define Y_Axis_Interval  32                                     //y轴上间隔距离像素
+    #define Rect_LU_X_POS    OUTLINE_LEFT_X                         //第一个左上x坐标
+    #define Rect_LU_Y_POS    (OUTLINE_LEFT_Y+93)+3*Y_Axis_Interval  //第一个左上y坐标
 
-    #define Rect_RD_X_POS    Rect_LU_X_POS+45//X_Axis_Interval//X_Axis_Interval//78   //第一个右下x坐标
-    // #define Rect_RD_Y_POS    Rect_LU_Y_POS+20//Y_Axis_Interval//Y_Axis_Interval//177-4  //第一个右下y坐标
-    #define Rect_RD_Y_POS    (Rect_LU_Y_POS+30)//Y_Axis_Interval//Y_Axis_Interval//177-4  //第一个右下y坐标
+    #define Rect_RD_X_POS    (Rect_LU_X_POS+40)                     //第一个右下x坐标
+    #define Rect_RD_Y_POS    (Rect_LU_Y_POS+30)                     //第一个右下y坐标
 	
 #define TITLE_X 29
 #define TITLE_Y  1
