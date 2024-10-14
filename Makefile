@@ -50,3 +50,7 @@ tests-all-local-docker:
 setup-local-docker:
 	docker-compose build
 .PHONY: setup-local-docker
+
+firmware:
+	docker compose run --rm marlin platformio run -d /code
+.PHONY: firmware

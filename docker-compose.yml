@@ -1,4 +1,3 @@
-version: "3.8"
 services:
   # The main image: this doesn't run any particular command, but is mainly used
   # for running tests locally

@@ -15,6 +15,14 @@ It includes the following customizations from the Stock firmware released by Cre
 - Extend auto-levelling to use 7x7 grid
    - Patch by [aschmitt1909](https://github.com/aschmitt1909/Ender-3V3-SE)
 
+To build run:
+
+```
+> make firmware
+```
+
+This will execute the build using dockerised plaformio. Build artifacts will be written to `.pio/build/STM32F103RET6_creality`.
+
 
 # Marlin 3D Printer Firmware
 
