@@ -1,3 +1,21 @@
+# Customized Marlin 3D Printer Firmware for Ender-3 V3 SE
+
+This repository contains customized Marlin 2.0 firmware specifically for the _Ender-3 V3 SE_ 3D Printer.
+
+It includes the following customizations from the Stock firmware released by Creality:
+
+- Raise max nozzle temp from 260°C to 300°C
+    - NOTE: Requires Ceramic Hotend upgrade to use max temp safely
+- Raise max bed temp from 100°C to 110°C
+- Increase Z homing speed
+- Increase max speeds and accelerations
+- Enable host action commands (OctoPrint)
+- Enable Linear Advance
+   - Backported from mainline Marlin by [queeup](https://github.com/queeup-Forks/Ender-3V3-SE)
+- Extend auto-levelling to use 7x7 grid
+   - Patch by [aschmitt1909](https://github.com/aschmitt1909/Ender-3V3-SE)
+
+
 # Marlin 3D Printer Firmware
 
 ![GitHub](https://img.shields.io/github/license/marlinfirmware/marlin.svg)
